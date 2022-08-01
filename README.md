@@ -1,4 +1,4 @@
-# DOM Shortener
+# DOM Shortener `v0.1.2`
 
 ## What is it?
 
