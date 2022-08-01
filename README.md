@@ -1,4 +1,4 @@
-# DOM Shortener `v0.1.2`
+# DOM Shortener `v0.1.3`
 
 ## What is it?
 
@@ -27,4 +27,4 @@ npm i dom-shortener
 
 And that's it!
 
-If you liked this package, you can **star** my [Github Repository](https://github.com/JavRedstone/dom-shortener) if you wish. If you found any bugs, please report them [here](https://github.com/JavRedstone/L8R/dom-shortener), and I will fix them as fast as I can.
+If you liked this package, you can **star** my [Github Repository](https://github.com/JavRedstone/dom-shortener) if you wish. If you found any bugs, please report them [here](https://github.com/JavRedstone/dom-shortener/issues), and I will fix them as fast as I can.
