@@ -17,7 +17,7 @@ for (let helloWorldEl of helloWorldEls) {
 const DOC = document;
 
 /**
- * @param {number} id 
+ * @param {string} id 
  * @returns the element with the id specified
  */
 function getById(id) {
