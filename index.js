@@ -1,7 +1,7 @@
 const DOC = document;
 
 /**
- * @param {number} id 
+ * @param {string} id 
  * @returns the element with the id specified
  */
 function getById(id) {
@@ -16,7 +16,7 @@ function getByClass(className) {
     return DOC.getElementsByClassName(className);
 }
 
-export default {
+module.exports = {
     DOC,
 
     getById,
