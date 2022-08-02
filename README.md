@@ -1,4 +1,4 @@
-# DOM Shortener `v0.2.2`
+# DOM Shortener `v0.3.0`
 
 ## What is it?
 
@@ -63,7 +63,7 @@ After you're done, bundle for the browser with [browserify](https://browserify.o
 
 ### End Result
 
-<img src="https://raw.githubusercontent.com/JavRedstone/dom-shortener/main/result.png">
+<img src="https://raw.githubusercontent.com/JavRedstone/dom-shortener/main/assets/result.png">
 
 ## Suggestions
 
