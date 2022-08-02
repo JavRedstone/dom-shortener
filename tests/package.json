@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "browserify-shim": "^3.8.15",
-    "dom-shortener": "^0.1.5",
-    "save": "^2.5.0"
-  }
-}
