@@ -1,6 +1,6 @@
 {
   "name": "dom-shortener",
-  "version": "0.1.5",
+  "version": "0.2.2",
   "description": "A package to help simplify the DOM's document and some of its methods.",
   "main": "index.js",
   "scripts": {

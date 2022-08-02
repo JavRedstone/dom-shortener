@@ -1,4 +1,4 @@
-# DOM Shortener `v0.1.5`
+# DOM Shortener `v0.2.2`
 
 ## What is it?
 
@@ -16,7 +16,7 @@ And that's it!
 
 ## Usage
 
-index.html
+### index.html
 
 ```html
 <!DOCTYPE html>
@@ -39,17 +39,17 @@ index.html
 </html>
 ```
 
-index.js
+### index.js
 
 ```js
-let ds = require('dom-shortener');
+let DOC = require('dom-shortener');
 
 // Native document method
-ds.DOC.write('<h1>DOM SHORTENER DEMO</h1>');
+DOC.write('<h1>DOM SHORTENER DEMO</h1>');
 
 // DOM shortened methods
-let helloEl = ds.getById('hello');
-let helloWorldEls = ds.getByClass('hello-world');
+let helloEl = DOC.getById('hello');
+let helloWorldEls = DOC.getByClass('hello-world');
 
 // Can be manipulated just fine
 helloEl.innerHTML = 'Hello Shortened';
@@ -58,12 +58,16 @@ for (let helloWorldEl of helloWorldEls) {
 }
 ```
 
-After you're done, bundle for the browser with [browserify](https://github.com/substack/browserify).
+After you're done, bundle for the browser with [browserify](https://browserify.org/).
 **Note that index.html has a script with the source being the bundled file.**
+
+### End Result
+
+<img src="https://raw.githubusercontent.com/JavRedstone/dom-shortener/main/result.png">
 
 ## Suggestions
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfR1ZBUBdHXGkOmdZyKpPlqXWkiU29XeKR-aeK9cUq1wucpZg/viewform?embedded=true" width="640" height="866" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+**Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfR1ZBUBdHXGkOmdZyKpPlqXWkiU29XeKR-aeK9cUq1wucpZg/viewform) if you have any suggestions since I am actively updating this package in real time**
 
 If you liked this package, you can **star** my [Github Repository](https://github.com/JavRedstone/dom-shortener) if you wish. If you found any bugs, please report them [here](https://github.com/JavRedstone/dom-shortener/issues), and I will fix them as fast as I can.
 
